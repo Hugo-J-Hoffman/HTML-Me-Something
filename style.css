@@ -1,33 +1,69 @@
-body {
-	background-color: #777471;
+*{
+    font-family: Arial;
 }
-p {
+body {
+	background-color: rgb(217, 194, 150);
+}
+section section p {
+    border: 5px solid grey;
+    border-radius: 10px;
     background-color: #5c6870;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
 }
-.paragraph{
-    background-color: #5c6999;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-right: 120px;
-    margin-left: 60px;
+section {
+    background-color: #5c9999;
+    border: 5px solid grey;
+    border-radius: 10px;
 
+
+}
+section section{
+    background-color: #0f9090;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 #id{
     color: white;
-    background-color: #1049a5;
+    background-color: #0f9090;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 200px;
-    margin-left: 80px;
+    margin-left: 200px;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 
 img {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: relative;
+    float: right;
+    height:  250px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+section h2{
+    text-align: center;
+    background-color: brown;
+}
+section h4{
+
+    text-align: center;
+    background-color: brown;
+    margin-top: 250px;
+
+}
+figcaption{
+    text-align: right;
+}
+a:link{
+    text-decoration: none;
+}
+body*{
+    margin-right: 100px;
+    margin-left: 25px;
 }
