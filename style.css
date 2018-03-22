@@ -1,0 +1,33 @@
+body {
+	background-color: #777471;
+}
+p {
+    background-color: #5c6870;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+.paragraph{
+    background-color: #5c6999;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 120px;
+    margin-left: 60px;
+
+}
+#id{
+    color: white;
+    background-color: #1049a5;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 80px;
+}
+
+img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
